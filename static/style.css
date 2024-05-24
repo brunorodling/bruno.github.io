@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins';
+    margin: 20px;
+    
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    font-family: 'Poppins';
+    font-size: 17px;
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 60%;
+    font-family: 'Poppins';
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+.container{
+    margin: 0 auto;
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    align-items: center;
+    background: linear-gradient(rgb(163, 1, 250), purple, blue);
+    color: white;
+}
+
+.container h1{
+    line-height: 30px;
+    color: black;
+    font-size: 35px;
+}
+
+.container input{
+    border-radius: 20px;
+    width: 40%;
+    height: 25px;
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+
+@media screen and (max-width: 557px){
+    .container{
+        margin: 0 auto;
+        width: 400px;
+        height: 90%;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 15px;
+        align-items: center;
+        background: linear-gradient(rgb(163, 1, 250), purple, blue);
+        color: white;
+    }
+
+    .container h1{
+        line-height: 30px;
+        color: black;
+        font-size: 35px;
+    }
+    
+    .container input{
+        border-radius: 20px;
+        width: 40%;
+        height: 25px;
+        padding-left: 10px;
+        font-family: 'Poppins';
+        font-size: 18px;
+    }
+}
